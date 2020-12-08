@@ -1,0 +1,14 @@
+C:\Users\Lenovo\Desktop\siec_neuronowa\siec_neuronowa\bin\Debug\siec_neuronowa.exe.config
+C:\Users\Lenovo\Desktop\siec_neuronowa\siec_neuronowa\bin\Debug\siec_neuronowa.exe
+C:\Users\Lenovo\Desktop\siec_neuronowa\siec_neuronowa\bin\Debug\siec_neuronowa.pdb
+C:\Users\Lenovo\Desktop\siec_neuronowa\siec_neuronowa\obj\Debug\siec_neuronowa.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\siec_neuronowa\siec_neuronowa\obj\Debug\MainWindow.g.cs
+C:\Users\Lenovo\Desktop\siec_neuronowa\siec_neuronowa\obj\Debug\App.g.cs
+C:\Users\Lenovo\Desktop\siec_neuronowa\siec_neuronowa\obj\Debug\siec_neuronowa_MarkupCompile.cache
+C:\Users\Lenovo\Desktop\siec_neuronowa\siec_neuronowa\obj\Debug\siec_neuronowa_MarkupCompile.lref
+C:\Users\Lenovo\Desktop\siec_neuronowa\siec_neuronowa\obj\Debug\MainWindow.baml
+C:\Users\Lenovo\Desktop\siec_neuronowa\siec_neuronowa\obj\Debug\siec_neuronowa.g.resources
+C:\Users\Lenovo\Desktop\siec_neuronowa\siec_neuronowa\obj\Debug\siec_neuronowa.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\siec_neuronowa\siec_neuronowa\obj\Debug\siec_neuronowa.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\siec_neuronowa\siec_neuronowa\obj\Debug\siec_neuronowa.exe
+C:\Users\Lenovo\Desktop\siec_neuronowa\siec_neuronowa\obj\Debug\siec_neuronowa.pdb
