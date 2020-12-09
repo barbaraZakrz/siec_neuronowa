@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Globalization;
 
 namespace siec_neuronowa
 {
@@ -46,13 +47,13 @@ namespace siec_neuronowa
 
             public double wyjscie(List<double> wejscia)
             {
-                if (wejscia.Count != wagi.Count)
+                if (wejscia.Count != wagi.Count-1)
                 {
                     return 0;
                 }
                 double wynik = 0;
 
-                for (int i = 0; i < wagi.Count; i++)
+                for (int i = 0; i < wagi.Count-1; i++)
                 {
                     wynik += wejscia[i] * wagi[i];
                 }
@@ -136,7 +137,22 @@ namespace siec_neuronowa
 
         private void RunBTN_Click(object sender, RoutedEventArgs e)
         {
-
+            string text = Inputs.Text;
+            string[] textSplit = text.Split(' ');
+            List<double> inputs = new List<double>();
+            for (int i = 0; i < (textSplit.Length); i++)
+            {
+                inputs.Add(double.Parse(textSplit[i], CultureInfo.InvariantCulture));
+            }
+            List<double> outputs = siec.wyjscia(inputs);
+            string wyniki = "";
+            for (int i = 0; i < outputs.Count; i++)
+            {
+                wyniki += outputs[i].ToString("0.##");
+                wyniki += " "; 
+            }
+            Outputs.Text = wyniki; 
+            
         }
 
         private void Struktura_TextChanged(object sender, TextChangedEventArgs e)
