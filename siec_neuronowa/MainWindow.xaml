@@ -12,6 +12,8 @@
         <TextBox x:Name="Inputs" HorizontalAlignment="Left" Height="23" Margin="81,111,0,0" TextWrapping="Wrap" Text="Wpisz wejścia (ze spacjami)" VerticalAlignment="Top" Width="175" TextChanged="Inputs_TextChanged"/>
         <Button x:Name="RunBTN" Content="Przelicz" HorizontalAlignment="Left" Margin="261,111,0,0" VerticalAlignment="Top" Width="75" Click="RunBTN_Click"/>
         <TextBox x:Name="Outputs" HorizontalAlignment="Left" Height="23" Margin="341,111,0,0" TextWrapping="Wrap" Text="Wyniki" VerticalAlignment="Top" Width="120" TextChanged="Outputs_TextChanged"/>
+        <TextBox x:Name="Repeats" HorizontalAlignment="Left" Height="23" Margin="81,139,0,0" TextWrapping="Wrap" Text="Liczba powtorzen" VerticalAlignment="Top" Width="120" TextChanged="Repeats_TextChanged"/>
+        <Button x:Name="UczBTN" Content="Ucz (tylkoXOR)" HorizontalAlignment="Left" Margin="206,139,0,0" VerticalAlignment="Top" Width="104" Click="UczBTN_Click"/>
 
     </Grid>
 </Window>
